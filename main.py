@@ -5,7 +5,7 @@ from game_data import data
 import random
 
 def print_details(name, choice):
-  print (f'Compare {name}: {choice["name"]}, a {choice["description"]}, from {choice["country"]}, hint: {choice["follower_count"]}')
+  print (f'Compare {name}: {choice["name"]}, a {choice["description"]}, from {choice["country"]}')
 
 def check_answer(a, b, answer):
   """Takes the two choices, checks who has more followers and returns True if user answer matches the correct answer."""
